@@ -26,7 +26,7 @@ Ključne funkcionalnosti:
 
   Snackbar:
 
-    Privzeti prikaz obvestila Just another option for button ob kliku na FAB.
+  Privzeti prikaz obvestila Just another option for button ob kliku na FAB.
 
 Prilagojena različica Snackbar, centrirana na sredino zaslona z izgledom (zaobljeni robovi, barve, pisava), ki posnema obvestilo tipa Toast.
 
