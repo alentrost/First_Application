@@ -8,16 +8,6 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="290dp"
-        android:layout_height="124dp"
-        android:text="Mobile application"
-        android:textSize="34sp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="236dp"
-        tools:layout_editor_absoluteY="279dp" />
-
-    <TextView
         android:id="@+id/textView"
         android:layout_width="203dp"
         android:layout_height="115dp"
@@ -26,10 +16,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/radioGroup"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.475"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.368" />
+        app:layout_constraintVertical_bias="0.071" />
 
     <Button
         android:id="@+id/button"
@@ -76,13 +66,14 @@
 
     <RadioGroup
         android:id="@+id/radioGroup"
-        android:layout_width="288dp"
-        android:layout_height="105dp"
+        android:layout_width="258dp"
+        android:layout_height="98dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.376"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.556">
 
         <RadioButton
             android:id="@+id/radioButton"
@@ -113,6 +104,19 @@
             app:layout_constraintVertical_bias="0.132" />
 
     </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="290dp"
+        android:layout_height="124dp"
+        android:text="Mobile application"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.306" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
