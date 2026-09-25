@@ -1,32 +1,32 @@
-Razvoj mobilnih aplikacij – Naloga 1: Hello World!
+## Razvoj mobilnih aplikacij – Naloga 1: Hello World!
 
-Ta repozitorij vsebuje rešitev prve naloge pri predmetu Razvoj mobilnih aplikacij. Glavni cilj naloge je bil spoznavanje z razvojnim okoljem Android Studio, strukturo Android projektov, delom z uporabniškim vmesnikom v XML ter osnovno programsko logiko v programskem jeziku Java.
+  Ta repozitorij vsebuje rešitev prve naloge pri predmetu Razvoj mobilnih aplikacij. Glavni cilj naloge je bil spoznavanje z razvojnim okoljem         Android Studio, strukturo Android projektov, delom z uporabniškim vmesnikom v XML ter osnovno programsko logiko v programskem jeziku Java.
 
 Pregled aplikacije
 
-Aplikacija prikazuje osnovni uporabniški vmesnik, zgrajen s postavitvijo ConstraintLayout, ter demonstrira uporabo osnovnih gradnikov in interakcij.
+  Aplikacija prikazuje osnovni uporabniški vmesnik, zgrajen s postavitvijo ConstraintLayout, ter demonstrira uporabo osnovnih gradnikov in             interakcij.
 
 Ključne funkcionalnosti:
 
-Uporabniški vmesnik (UI):
+  Uporabniški vmesnik (UI):
 
-Uporaba dveh besedilnih polj (TextView) z nastavitvijo sloga (bold, 34sp) in večjezičnosti prek strings.xml.
+  Uporaba dveh besedilnih polj (TextView) z nastavitvijo sloga (bold, 34sp) in večjezičnosti prek strings.xml.
 
-Radio gumbi (RadioButton) za izbiro možnosti.
+  Radio gumbi (RadioButton) za izbiro možnosti.
 
-Potrditveno polje (CheckBox) za prijavo na novice / sprejem pogojev.
+  Potrditveno polje (CheckBox) za prijavo na novice / sprejem pogojev.
 
-Glavni gumb za prijavo (Button).
+  Glavni gumb za prijavo (Button).
 
-Lebdeči akcijski gumb (FloatingActionButton) z ikono +.
+  Lebdeči akcijski gumb (FloatingActionButton) z ikono +.
 
-Interaktivnost & Obvestila:
+  Interaktivnost & Obvestila:
 
-Toast: Ob kliku na gumb se izpiše sporočilo My first Android Studio application!.
+  Toast: Ob kliku na gumb se izpiše sporočilo My first Android Studio application!.
 
-Snackbar:
+  Snackbar:
 
-Privzeti prikaz obvestila Just another option for button ob kliku na FAB.
+    Privzeti prikaz obvestila Just another option for button ob kliku na FAB.
 
 Prilagojena različica Snackbar, centrirana na sredino zaslona z izgledom (zaobljeni robovi, barve, pisava), ki posnema obvestilo tipa Toast.
 
@@ -58,9 +58,9 @@ app/
 
 Namestitev in zagon
 
-Klonirajte ta repozitorij:
+  Klonirajte ta repozitorij:
 
-git clone https://github.com/uporabnisko-ime/ime-repozitorija.git
+  git clone https://github.com/alentrost/First_Application.git
 
 
 Odprite Android Studio.
